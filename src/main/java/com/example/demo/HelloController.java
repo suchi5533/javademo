@@ -16,5 +16,10 @@ public class HelloController {
         return "Hello from Spring Boot";
     }
     
+    @GetMapping("/")
+    public String root() {
+        return "Hello from Root";
+    }
+    
     
 }
