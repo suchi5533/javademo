@@ -18,7 +18,7 @@ public class HelloController {
     
     @GetMapping("/")
     public String root() {
-        return "Hello DevOps Suchit";
+        return "Hello DevOps Suchit-wa";
     }
     
     
