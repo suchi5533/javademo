@@ -18,7 +18,7 @@ public class HelloController {
     
     @GetMapping("/")
     public String root() {
-        return "Hello from Root of git hub of suchit waghamare";
+        return "Hello DevOps Suchit";
     }
     
     
